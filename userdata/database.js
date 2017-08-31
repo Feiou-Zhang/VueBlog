@@ -4,10 +4,10 @@ window.VUELOG_DATABASE = {
 
   config: {
     // The name of your site, will be displayed in browser tab and site header.
-    brand: {'en-US': 'Vuelog', 'zh-CN': 'Vuelog'},
+    brand: {'en-US': 'Feiou Zhang', 'zh-CN': 'Feiou Zhang'},
 
     // The image displayed in site header right beside the brand.
-    logo: './static/vuelog.svg',
+    logo: './static/newfz.png',
 
     // Path to the domain root that serves your site, starts and ends with slash (`/`).
     // Set to `'/'` if your site is under domain root.
@@ -24,7 +24,7 @@ window.VUELOG_DATABASE = {
     defaultLang: 'en-US',
 
     // Allow/disallow visitors to switch interface language.
-    switchLang: true,
+    switchLang: false,
 
     // Available languages for switching. Must be a subset of supported languages, or leave empty.
     selectedLangs: [],
@@ -47,9 +47,19 @@ window.VUELOG_DATABASE = {
 
   navigation: [
     {
+      label: {'en-US': 'Post', 'zh-CN': '博客'},
+      type: 'page',
+      path: '/page/post'
+    },
+    {
       label: {'en-US': 'Guide', 'zh-CN': '指南'},
       type: 'page',
       path: '/page/guide'
+    },
+    {
+      label: {'en-US': 'Resume', 'zh-CN': '简历'},
+      type: 'page',
+      path: '/page/resume'
     },
     {
       label: {'en-US': 'About', 'zh-CN': '关于'},
@@ -106,6 +116,14 @@ window.VUELOG_DATABASE = {
     {
       title: {'en-US': 'Changelog', 'zh-CN': '变更日志'},
       slug: 'changelog'
+    },
+    {
+      title: {'en-US': 'Resume', 'zh-CN': '简历'},
+      slug: 'resume'
+    },
+    {
+      title: {'en-US': 'Post', 'zh-CN': '博客'},
+      slug: 'post'
     }
   ],
 
@@ -117,11 +135,25 @@ window.VUELOG_DATABASE = {
     {
       title: {'en-US': 'Showcase', 'zh-CN': '示例'},
       slug: 'showcase'
+    },
+    {
+      title: {'en-US': 'LeetCode', 'zh-CN': 'LeetCode'},
+      slug: 'leetcode'
+    },
+    {
+      title: {'en-US': 'Java API Discovery', 'zh-CN': 'Java API Discovery'},
+      slug: 'api'
     }
   ],
 
   posts: [
     /* 2017 */
+    {
+      title: {'en-US': '20. Valid Parenthesesclass', 'zh-CN': '20. Valid Parenthesesclass'},
+      slug: 'valid-parenthesesclass',
+      category: 'leetcode',
+      date: '2017-08-30'
+    },
     {
       title: {'en-US': 'Multiple languages support', 'zh-CN': '多语言支持'},
       slug: 'multiple-languages-support',
@@ -164,6 +196,12 @@ window.VUELOG_DATABASE = {
       slug: 'customize-the-site',
       category: 'docs',
       date: '2017-01-10'
+    },
+    {
+      title: {'en-US': 'String and StringBuilder', 'zh-CN': '自定义站点'},
+      slug: 'api-string-stringbuilder',
+      category: 'api',
+      date: '2017-08-30'
     },
     /* 2016 */
     {

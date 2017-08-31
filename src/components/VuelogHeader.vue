@@ -134,6 +134,7 @@
       font-weight 500
 
     img
+      display: none
     span
       display inline-block
       height 32px
@@ -162,7 +163,7 @@
 
       &:hover
       &.router-link-active
-        border-bottom 3px solid #42b983
+        border-bottom 3px solid #3288d6
         padding-bottom 2px
 
       &.router-link-active
@@ -187,9 +188,9 @@
       display block
       font-size .9em
       padding 0 1.4em
-    
+
       &:hover
-        color #42b983
+        color #3288d6
         border-bottom none
         padding 0 1.4em
 
@@ -299,7 +300,7 @@
 
       a:hover
       a.router-link-active
-        color #42b983
+        color #3288d6
         padding-bottom 0
 
       a.router-link-active

@@ -21,5 +21,6 @@ hljs.registerLanguage('json', require('highlight.js/lib/languages/json'))
 hljs.registerLanguage('sql', require('highlight.js/lib/languages/sql'))
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'))
 hljs.registerLanguage('diff', require('highlight.js/lib/languages/diff'))
+hljs.registerLanguage('java', require('highlight.js/lib/languages/java'))
 
 export default hljs
