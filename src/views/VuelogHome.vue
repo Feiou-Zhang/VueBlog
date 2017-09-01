@@ -59,7 +59,7 @@
 
 <style lang="stylus" scoped>
   .vue-typer
-    font-family Copperplate
+    font-family monospace
     font-size x-large
     text-align left
 
