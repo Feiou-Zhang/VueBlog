@@ -3,7 +3,7 @@
     <transition name="fade" mode="out-in">
       <vuelog-spinner class="spinner" v-if="!content" key="spinner"></vuelog-spinner>
       <div class="content-body" v-if="content" :key="active">
-        <h1 class="content-title" v-if="type !== 'posts' && !metadata.titleless" v-text="i18nify(metadata.title)"></h1>
+        <h1 class="content-title" v-if="type !== 'posts' && type !== 'page' && !metadata.titleless" v-text="i18nify(metadata.title)"></h1>
         <h2 class="content-title" v-if="type === 'posts'">
           <router-link :to="{name: 'post', params: {category: metadata.category, slug: metadata.slug, year: metadata.year}}" v-text="i18nify(metadata.title)"></router-link>
         </h2>

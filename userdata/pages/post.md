@@ -2,15 +2,15 @@ title: Post
 ------------------------------------
 <!-- en-US:+ -->
 
-#### Overview
+#### Recent Interests
 
-- [File structure of Vuelog](#/blog/docs/2016/file-structure-of-vuelog)
+- [BitMap]()
 
 #### Java API Discovery
 
 - [String and StringBuilder](#/blog/api/2017/api-string-stringbuilder)
-- [HashMap](#/blog/docs/2017/customize-navigation-menu)
-- [Integer](#/blog/docs/2017/customize-navigation-menu)
+- [HashMap](#/blog/api/2017/api-hashmap)
+- [Integer](#/blog/api/2017/api-integer)
 
 #### Pre-LeetCode
 

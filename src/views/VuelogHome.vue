@@ -1,19 +1,26 @@
 <template>
   <div class="home">
-    <img src="../assets/img/vuelog.svg">
-    <h1 v-text="system.brand"></h1>
-    <p v-text="$t('home.description')"></p>
-    <a class="button" :href="download" v-text="$t('home.download', [system.version])" target="_blank" rel="noopener noreferrer"></a>
-    <a class="button github" :href="system.project" target="_blank" rel="noopener noreferrer" v-text="$t('home.github')"></a>
+    <br>
+    <div class="com">
+      <div class="words">
+        <vue-typer :text='["Hi, Welcome to Feiou`s personal website!","Please help yourself play around here.","And I would love to share something with you in this website, maybe ideas, maybe tips, how I solved a problem, or just some random thoughts.","I believe in what Benjamin Franklin says `Any investment in knowledge always pays the best interest.` I hope we all can learn something along the way."]'
+                   :repeat = '0'
+                   :typeDelay = '100'
+        ></vue-typer>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   import { retrieveByLanguage } from '../helpers'
+  import { VueTyper } from 'vue-typer'
 
   export default {
     name: 'vuelog-home',
-
+    components: {
+      'vue-typer': VueTyper
+    },
     computed: {
       active () {
         return this.$store.getters.lang
@@ -51,13 +58,30 @@
 </script>
 
 <style lang="stylus" scoped>
+  .vue-typer
+    font-family Copperplate
+    font-size x-large
+    text-align left
+
+  .com
+    position: absolute
+    background-image: url(../assets/img/imac.png)
+    background-size cover
+    height 646px
+    width 800px
+
+  .words
+    position absolute
+    margin-left 10%
+    margin-top 10%
+    margin-right 10%
   .home
     text-align center
 
   img
     display inline-block
-    height 256px
-    width 256px
+    height 646px
+    width 800px
     margin-top 75px
 
   h1
@@ -80,6 +104,21 @@
       color #5dc596
 
   @media screen and (max-width: 999px)
+    .com
+      position: absolute
+      background-image: url(../assets/img/ipad63.png)
+      background-size cover
+      height 870px
+      width 620px
+      margin-top 5%
+      margin-left 5%
+    .vue-typer
+      font-size xx-large
+
+    .words
+      position absolute
+      margin-left 13%
+      margin-top 23%
     img
       height 192px
       width 192px
@@ -92,4 +131,18 @@
 
     .button
       margin-bottom .25em
+  @media screen and (max-width: 707px)
+    .com
+      position: absolute
+      background-image: url(../assets/img/62.png)
+      background-size cover
+      height 630px
+      width 310px
+    .vue-typer
+      font-size large
+
+    .words
+      position absolute
+      margin-left 10%
+      margin-top 35%
 </style>

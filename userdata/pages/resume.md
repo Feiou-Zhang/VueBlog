@@ -2,39 +2,39 @@ title: About Feiou Zhang
 ------------------------------------
 <!-- en-US:+ -->
 
-### Why did I create Vuelog?
+#### OBJECTIVE
 
-Several years ago, I migrated my blog to [GitHub Pages](https://pages.github.com/). At that time, I have several choices: Jekyll, Hexo, or something I hand-crafted with AngularJS. Finally I chose [Hexo](https://hexo.io/) to generate the static website, because I’m lazy and don’t like Ruby.
+<font size=3>Highly motivated, decisive and results-oriented individual seeking a full-time position as a Software Engineer</font>
 
-Before Hexo I was using [WordPress](https://wordpress.org/). It’s rather simple - log in, write something, publish. With Hexo, everytime I want to write something, I need to generate the whole static site locally after finished writing, and then push the generated copy via git client. In the beginning I thought, well, boring but I can stand it. However, one thing changed my mind - I got a new laptop. You know the dirty works to set up a work station. Hexo only pushed the generated site to GitHub, all the configurations and source markdown files are stored locally. Fortunately, I didn’t format the old laptop before I realized I forgot to backup them.
+</br>
 
-Then I wondered, can I put the configurations into the repository? Also, can I get rid of building the static copy all the time? A coder’s answer is (always) to build own wheels. This time, I told myself not to be lazy again.
+#### WORK EXPERIENCES
 
-<blockquote class="tip">
-  <p>If you could read Chinese, there’s [an issue on GitHub](https://github.com/myst729/Vuelog/issues/6) created by a Hexo team member, which talks about this too.</p>
-</blockquote>
+**Harland Clarke** <font size=2>Software Engineering Intern | Jun 2017 - Aug 2017</font>
 
-### Why did I choose Vue?
+- <font size=3>Developed a web based OCR service for bank check reading system</font>
+- <font size=3>Worked in a fast and collaborative environment leveraging version control system</font>
+-	<font size=3>Contributed to develop internal web applications mainly using frontend and backend JavaScript frameworks</font>
 
-Why not AngularJS or React?
+**Sirius Computer Solutions** <font size=2>IT Associate | Apr 2015 - Feb 2016</font>
+-	<font size=3>Migrated legacy reports and optimized the composition of the reports</font>
+-	<font size=3>Developed new reports and accomplished the function, security, and high-level test</font>
 
-AngularJS (1.x) is not an option because I use it quite a lot in my daily job. I want to try something I haven’t used before.
+**The University of Texas at San Antonio** <font size=2>Java Tutor | Jun 2014 - Dec 2014</font>
 
-[Vue](http://vuejs.org/) has a well crafted core library. Its APIs are inspired from AngularJS, very attractive to coders familiar with AngularJS, like me. It’s also light-weighted with good performance.
+- <font size=3>Taught over 60 students the Java programming knowledge and logical thinking</font>
+- <font size=3>Helped students to work on their java labs and project assignments 6 days a week</font>
 
-Besides the incredibly sufficient documentation, Vue has a complete line-up for developement, including scaffolding tool ([vue-cli](https://github.com/vuejs/vue-cli)), client-side routing ([vue-router](https://github.com/vuejs/vue-router)), centralized state management ([vuex](https://github.com/vuejs/vuex)), Chrome DevTools add-on ([vue-devtools](https://github.com/vuejs/vue-devtools)), and other useful tools.
+#### SKILLS
 
-I’ve also written some React “toys” before but never got a chance for real deal. It just doesn’t attract me much. React has its own ecosystem. Maybe I’ll try it in my next project.
+<font size=3>`Java` `Vue.js` `HTML` `CSS` `JavaScript`</font>
 
-### Who can use Vuelog?
+#### EDUCATION
 
-Anyone, as long as you are willing to write something more than 140 words (characters), and have a place (e.g. GitHub Pages) to host your writings.
+**The University of Texas at San Antonio** <font size=2></font>
+###### MS in Information Technology | 2016 - 2017 | GPA: 4.00
 
-### Is the project still alive?
-
-Of course! In the beginning it’s experimental indeed. As I learn more about Vue and other useful add-ons, I decide to continuously improve, not only to consolidate my knowledges of Vue, but also to make myself more happily writing.
-
-The latest version is totally rewritten, built on vue 2.x, vue-router 2.x and vuex 2.x now. And it constantly develops features, fixes bugs, and updates dependencies.
+###### BBA in Information System | 2011 - 2014 | GPA: 3.81
 
 <!-- en-US:- -->
 

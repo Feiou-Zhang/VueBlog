@@ -62,16 +62,6 @@ window.VUELOG_DATABASE = {
       path: '/page/resume'
     },
     {
-      label: {'en-US': 'About', 'zh-CN': '关于'},
-      type: 'page',
-      path: '/page/about'
-    },
-    {
-      label: {'en-US': 'Showcase', 'zh-CN': '示例'},
-      type: 'category',
-      path: '/blog/showcase'
-    },
-    {
       label: {'en-US': 'Archive', 'zh-CN': '归档'},
       type: 'archive',
       path: '/archive'
@@ -82,19 +72,19 @@ window.VUELOG_DATABASE = {
       path: '', // (OPTIONAL) dropdown can be routable too if you set a valid route path
       children: [
         {
-          label: {'en-US': 'Weibo', 'zh-CN': '微博'},
+          label: {'en-US': 'LinkedIn', 'zh-CN': '领英'},
           type: 'outgoing',
-          link: 'http://weibo.com/myst729'
+          link: 'https://www.linkedin.com/in/feiouzhang/'
         },
         {
           label: 'GitHub',
           type: 'outgoing',
-          link: 'https://github.com/myst729'
+          link: 'https://github.com/Feiou-Zhang'
         },
         {
-          label: 'StackOverflow',
+          label: 'Email',
           type: 'outgoing',
-          link: 'https://stackoverflow.com/users/1032492'
+          link: 'mailto:feiou.zhang@hotmail.com'
         }
       ]
     }
@@ -153,6 +143,12 @@ window.VUELOG_DATABASE = {
       slug: 'valid-parenthesesclass',
       category: 'leetcode',
       date: '2017-08-30'
+    },
+    {
+      title: {'en-US': 'HashMap', 'zh-CN': 'HashMap'},
+      slug: 'api-hashmap',
+      category: 'api',
+      date: '2017-08-31'
     },
     {
       title: {'en-US': 'Multiple languages support', 'zh-CN': '多语言支持'},
