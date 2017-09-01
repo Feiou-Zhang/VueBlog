@@ -70,4 +70,6 @@
     flex 1
     display flex
     flex-direction column
+  hr
+    border-color rgba(255, 255, 255, 0.32)
 </style>

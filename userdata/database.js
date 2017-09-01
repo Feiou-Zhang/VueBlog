@@ -67,7 +67,7 @@ window.VUELOG_DATABASE = {
       path: '/archive'
     },
     {
-      label: {'en-US': 'Links', 'zh-CN': '链接'},
+      label: {'en-US': 'Find Me', 'zh-CN': '联系我'},
       type: 'dropdown',
       path: '', // (OPTIONAL) dropdown can be routable too if you set a valid route path
       children: [

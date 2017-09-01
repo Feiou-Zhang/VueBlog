@@ -6,7 +6,17 @@ title: About Feiou Zhang
 
 <font size=3>Highly motivated, decisive and results-oriented individual seeking a full-time position as a Software Engineer</font>
 
-</br>
+<hr style="border-color: rgba(249, 243, 243, 0.22);">
+
+
+#### QUALIFICATIONS
+
+- <font size=3>Solid knowledge of Java, object-oriented principles, data structure, and algorithm</font> 
+- <font size=3>Experience in engineering web development, all layers, from database to services to user interfaces</font>
+- <font size=3>Quickly learn and master new technologies; successful working in both team and self-directed settings</font>
+
+
+<hr style="border-color: rgba(249, 243, 243, 0.22);">
 
 #### WORK EXPERIENCES
 
@@ -16,18 +26,26 @@ title: About Feiou Zhang
 - <font size=3>Worked in a fast and collaborative environment leveraging version control system</font>
 -	<font size=3>Contributed to develop internal web applications mainly using frontend and backend JavaScript frameworks</font>
 
+<hr style="border-color: rgba(249, 243, 243, 0.22);">
+
 **Sirius Computer Solutions** <font size=2>IT Associate | Apr 2015 - Feb 2016</font>
 -	<font size=3>Migrated legacy reports and optimized the composition of the reports</font>
 -	<font size=3>Developed new reports and accomplished the function, security, and high-level test</font>
+
+<hr style="border-color: rgba(249, 243, 243, 0.22);">
 
 **The University of Texas at San Antonio** <font size=2>Java Tutor | Jun 2014 - Dec 2014</font>
 
 - <font size=3>Taught over 60 students the Java programming knowledge and logical thinking</font>
 - <font size=3>Helped students to work on their java labs and project assignments 6 days a week</font>
 
+<hr style="border-color: rgba(249, 243, 243, 0.22);">
+
 #### SKILLS
 
 <font size=3>`Java` `Vue.js` `HTML` `CSS` `JavaScript`</font>
+
+<hr style="border-color: rgba(249, 243, 243, 0.22);">
 
 #### EDUCATION
 
