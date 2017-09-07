@@ -4,7 +4,26 @@ title: Post
 
 #### Recent Interests
 
-- [BitMap]()
+- Node
+- Vue
+- Loopback
+
+
+#### Algorithm 
+
+- [Soring]()
+- [Dynamic Programming]()
+- [String Matching]()
+- [GCD and LCM](#/blog/docs/2017/insert-code-blocks-with-syntax-highlight)
+- [Prime numbers]()
+
+#### Data Structure
+
+- [Array](#/blog/showcase/2016/style-examples)
+- [ArrayList and LinkedList](#/blog/showcase/2016/style-examples)
+- [Stack and Queue](#/blog/leetcode/2017/valid-parenthesesclass)
+- [HashMap](#/blog/showcase/2016/style-examples)
+- [HashSet](#/blog/showcase/2016/style-examples)
 
 #### Java API Discovery
 
@@ -12,22 +31,14 @@ title: Post
 - [HashMap](#/blog/api/2017/api-hashmap)
 - [Integer](#/blog/api/2017/api-integer)
 
-#### Pre-LeetCode
+#### Java fundamentals 
 
+- [i++ and ++i](#/blog/docs/2017/add-posts-or-pages)
+- [Stack and Heap](#/blog/api/2017/api-integer)
 - [The conversion of String, Integer and int](#/blog/docs/2017/customize-the-site)
 - [The conversion between char and int](#/blog/docs/2017/customize-navigation-menu)
-- [i++ and ++i](#/blog/docs/2017/add-posts-or-pages)
 - [Why and when should use iterator?](#/blog/docs/2017/author-posts-or-pages)
-- [GCD and LCM](#/blog/docs/2017/insert-code-blocks-with-syntax-highlight)
-
-
-#### LeetCode
-
-- [34. Search for a Range](#/blog/showcase/2016/style-examples)
-- [20. Valid Parenthesesclass](#/blog/leetcode/2017/valid-parenthesesclass)
-- [409. Longest Palindrome](#/blog/showcase/2016/style-examples)
-- [	350. Intersection of Two Arrays II](#/blog/showcase/2016/style-examples)
-
+- [Iterator and ListIterator](#/blog/api/2017/api-integer)
 
 <!-- en-US:- -->
 

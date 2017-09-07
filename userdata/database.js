@@ -51,21 +51,21 @@ window.VUELOG_DATABASE = {
       type: 'page',
       path: '/page/post'
     },
-    {
-      label: {'en-US': 'Guide', 'zh-CN': '指南'},
-      type: 'page',
-      path: '/page/guide'
-    },
+    // {
+    //   label: {'en-US': 'Guide', 'zh-CN': '指南'},
+    //   type: 'page',
+    //   path: '/page/guide'
+    // },
     {
       label: {'en-US': 'Resume', 'zh-CN': '简历'},
       type: 'page',
       path: '/page/resume'
     },
-    {
-      label: {'en-US': 'Archive', 'zh-CN': '归档'},
-      type: 'archive',
-      path: '/archive'
-    },
+    // {
+    //   label: {'en-US': 'Archive', 'zh-CN': '归档'},
+    //   type: 'archive',
+    //   path: '/archive'
+    // },
     {
       label: {'en-US': 'Find Me', 'zh-CN': '联系我'},
       type: 'dropdown',
