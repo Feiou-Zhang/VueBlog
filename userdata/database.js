@@ -72,7 +72,7 @@ window.VUELOG_DATABASE = {
       path: '', // (OPTIONAL) dropdown can be routable too if you set a valid route path
       children: [
         {
-          label: {'New Site'},
+          label: 'New Site',
           type: 'outgoing',
           link: 'https://zhangfeiou.com/'
         },
