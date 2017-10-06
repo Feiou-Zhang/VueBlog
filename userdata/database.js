@@ -46,11 +46,11 @@ window.VUELOG_DATABASE = {
   },
 
   navigation: [
-    {
-      label: {'en-US': 'Post', 'zh-CN': '博客'},
-      type: 'page',
-      path: '/page/post'
-    },
+    // {
+    //   label: {'en-US': 'Post', 'zh-CN': '博客'},
+    //   type: 'page',
+    //   path: '/page/post'
+    // },
     // {
     //   label: {'en-US': 'Guide', 'zh-CN': '指南'},
     //   type: 'page',
@@ -71,6 +71,11 @@ window.VUELOG_DATABASE = {
       type: 'dropdown',
       path: '', // (OPTIONAL) dropdown can be routable too if you set a valid route path
       children: [
+        {
+          label: {'New Site'},
+          type: 'outgoing',
+          link: 'https://zhangfeiou.com/'
+        },
         {
           label: {'en-US': 'LinkedIn', 'zh-CN': '领英'},
           type: 'outgoing',
