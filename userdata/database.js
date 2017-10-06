@@ -57,7 +57,7 @@ window.VUELOG_DATABASE = {
     //   path: '/page/guide'
     // },
     {
-      label: {'new Site'},
+      label: 'new Site',
       type: 'outgoing',
       link: 'https://zhangfeiou.com/'
     },
