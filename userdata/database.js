@@ -57,6 +57,11 @@ window.VUELOG_DATABASE = {
     //   path: '/page/guide'
     // },
     {
+      label: {'new Site'},
+      type: 'outgoing',
+      link: 'https://zhangfeiou.com/'
+    },
+    {
       label: {'en-US': 'Resume', 'zh-CN': '简历'},
       type: 'page',
       path: '/page/resume'
@@ -72,7 +77,7 @@ window.VUELOG_DATABASE = {
       path: '', // (OPTIONAL) dropdown can be routable too if you set a valid route path
       children: [
         {
-          label: 'New Site',
+          label: 'NewSite',
           type: 'outgoing',
           link: 'https://zhangfeiou.com/'
         },
